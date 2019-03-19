@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Payment\\": "src"
+            "Iredcap\\Payment\\": "src"
         }
     }
 }

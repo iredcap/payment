@@ -1,14 +1,14 @@
 <?php
 
-namespace Payment\Gateways;
+namespace Iredcap\Payment\Gateways;
 
-use Payment\Connector\GatewayInterface;
-use Payment\Exceptions\ArgumentException;
-use Payment\Exceptions\SignatureException;
-use Payment\Helper\Arr;
-use Payment\Helper\Http;
-use Payment\Helper\Str;
-use Payment\Payment;
+use Iredcap\Payment\Connector\GatewayInterface;
+use Iredcap\Payment\Exceptions\ArgumentException;
+use Iredcap\Payment\Exceptions\SignatureException;
+use Iredcap\Payment\Helper\Arr;
+use Iredcap\Payment\Helper\Http;
+use Iredcap\Payment\Helper\Str;
+use Iredcap\Payment\Payment;
 
 class Wxpay extends Payment implements GatewayInterface
 {

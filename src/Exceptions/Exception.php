@@ -1,5 +1,5 @@
 <?php
-namespace Payment\Exceptions;
+namespace Iredcap\Payment\Exceptions;
 
 class Exception extends \Exception
 {

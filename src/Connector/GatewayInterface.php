@@ -1,6 +1,6 @@
 <?php
 
-namespace Payment\Connector;
+namespace Iredcap\Payment\Connector;
 
 
 interface GatewayInterface

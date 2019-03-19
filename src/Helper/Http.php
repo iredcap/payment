@@ -1,5 +1,5 @@
 <?php
-namespace Payment\Helper;
+namespace Iredcap\Payment\Helper;
 
 class Http
 {

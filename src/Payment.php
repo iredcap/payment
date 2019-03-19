@@ -1,8 +1,8 @@
 <?php
 
-namespace Payment;
+namespace Iredcap\Payment;
 
-use Payment\Exceptions\GatewayException;
+use Iredcap\Payment\Exceptions\GatewayException;
 
 class Payment
 {
@@ -42,7 +42,7 @@ class Payment
      * @return mixed
      * @throws \Exception
      */
-    public static function createPayment($method, $options, $payload){
+    public static function createPayment($method, $options, $payload = []){
 
         $payment = __NAMESPACE__ . '\\Gateways\\' . ucwords($method);
 

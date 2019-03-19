@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Payment\Exceptions;
+namespace Iredcap\Payment\Exceptions;
 
 
 class ArgumentException extends Exception
