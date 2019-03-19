@@ -1,0 +1,21 @@
+{
+    "name": "iredcap/payment",
+    "description": "payment library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "勇敢的小笨羊",
+            "email": "brianwaring98@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Payment\\": "src"
+        }
+    }
+}
